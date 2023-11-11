@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		404DDAA82947A7A00076BD3A /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404DDAA72947A7A00076BD3A /* ListView.swift */; };
+		404DDAAB2947AAB10076BD3A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404DDAAA2947AAB10076BD3A /* Constants.swift */; };
+		404DDAAD2947ACE80076BD3A /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404DDAAC2947ACE80076BD3A /* Recipe.swift */; };
+		404DDAB02947B0910076BD3A /* RecipeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404DDAAF2947B0910076BD3A /* RecipeHelper.swift */; };
+		404DDAB22947B2340076BD3A /* CuisineType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404DDAB12947B2340076BD3A /* CuisineType.swift */; };
+		404DDABA2947EFB80076BD3A /* TypeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404DDAB92947EFB80076BD3A /* TypeType.swift */; };
+		404DDABC2947FAC80076BD3A /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404DDABB2947FAC80076BD3A /* ImageHelper.swift */; };
+		404DDABE2947FE0E0076BD3A /* NotificationMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404DDABD2947FE0E0076BD3A /* NotificationMgr.swift */; };
+		404DDAC029480D990076BD3A /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404DDABF29480D990076BD3A /* Entry.swift */; };
+		404DDAC229480EAD0076BD3A /* EntriesVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404DDAC129480EAD0076BD3A /* EntriesVM.swift */; };
+		40672FB829482612005A1A20 /* FileManager+Entries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40672FB729482612005A1A20 /* FileManager+Entries.swift */; };
+		40672FBA29482B46005A1A20 /* RecipeView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40672FB929482B46005A1A20 /* RecipeView2.swift */; };
+		40D40B75294701D7002B23BC /* CollegeCooksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D40B74294701D7002B23BC /* CollegeCooksApp.swift */; };
+		40D40B77294701D7002B23BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D40B76294701D7002B23BC /* ContentView.swift */; };
+		40D40B79294701DC002B23BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D40B78294701DC002B23BC /* Assets.xcassets */; };
+		40D40B7C294701DC002B23BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D40B7B294701DC002B23BC /* Preview Assets.xcassets */; };
+		40D40B84294708F3002B23BC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D40B83294708F3002B23BC /* SettingsView.swift */; };
+		40D40B86294708FF002B23BC /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D40B85294708FF002B23BC /* InfoView.swift */; };
+		40D40B882947091F002B23BC /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D40B872947091F002B23BC /* SearchView.swift */; };
+		40D40B8A29470930002B23BC /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D40B8929470930002B23BC /* RecipeView.swift */; };
+		40D40B8C2947094E002B23BC /* SelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D40B8B2947094E002B23BC /* SelectionView.swift */; };
+		40D40B8E294709CF002B23BC /* Color+Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D40B8D294709CF002B23BC /* Color+Storage.swift */; };
+		40D40B9029470AF7002B23BC /* Bundle+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D40B8F29470AF7002B23BC /* Bundle+Info.swift */; };
+		40D40B9229470FCC002B23BC /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D40B9129470FCC002B23BC /* SavedView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		404DDAA72947A7A00076BD3A /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		404DDAAA2947AAB10076BD3A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		404DDAAC2947ACE80076BD3A /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		404DDAAF2947B0910076BD3A /* RecipeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeHelper.swift; sourceTree = "<group>"; };
+		404DDAB12947B2340076BD3A /* CuisineType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuisineType.swift; sourceTree = "<group>"; };
+		404DDAB92947EFB80076BD3A /* TypeType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeType.swift; sourceTree = "<group>"; };
+		404DDABB2947FAC80076BD3A /* ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageHelper.swift; path = CollegeCooks/Extensions/ImageHelper.swift; sourceTree = SOURCE_ROOT; };
+		404DDABD2947FE0E0076BD3A /* NotificationMgr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationMgr.swift; sourceTree = SOURCE_ROOT; };
+		404DDABF29480D990076BD3A /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		404DDAC129480EAD0076BD3A /* EntriesVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntriesVM.swift; sourceTree = "<group>"; };
+		40672FB729482612005A1A20 /* FileManager+Entries.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "FileManager+Entries.swift"; sourceTree = SOURCE_ROOT; };
+		40672FB929482B46005A1A20 /* RecipeView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView2.swift; sourceTree = "<group>"; };
+		40D40B71294701D7002B23BC /* CollegeCooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollegeCooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40D40B74294701D7002B23BC /* CollegeCooksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollegeCooksApp.swift; sourceTree = "<group>"; };
+		40D40B76294701D7002B23BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		40D40B78294701DC002B23BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40D40B7B294701DC002B23BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		40D40B8229470600002B23BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		40D40B83294708F3002B23BC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		40D40B85294708FF002B23BC /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		40D40B872947091F002B23BC /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		40D40B8929470930002B23BC /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
+		40D40B8B2947094E002B23BC /* SelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionView.swift; sourceTree = "<group>"; };
+		40D40B8D294709CF002B23BC /* Color+Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Storage.swift"; sourceTree = "<group>"; };
+		40D40B8F29470AF7002B23BC /* Bundle+Info.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+Info.swift"; sourceTree = "<group>"; };
+		40D40B9129470FCC002B23BC /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40D40B6E294701D7002B23BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		404DDAA92947AA080076BD3A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				40672FB729482612005A1A20 /* FileManager+Entries.swift */,
+				404DDABD2947FE0E0076BD3A /* NotificationMgr.swift */,
+				404DDAAA2947AAB10076BD3A /* Constants.swift */,
+				40D40B8D294709CF002B23BC /* Color+Storage.swift */,
+				40D40B8F29470AF7002B23BC /* Bundle+Info.swift */,
+				404DDABB2947FAC80076BD3A /* ImageHelper.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		404DDAAE2947ACEC0076BD3A /* Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				404DDAAC2947ACE80076BD3A /* Recipe.swift */,
+				40D40B8929470930002B23BC /* RecipeView.swift */,
+				40D40B872947091F002B23BC /* SearchView.swift */,
+				404DDAAF2947B0910076BD3A /* RecipeHelper.swift */,
+				40672FB929482B46005A1A20 /* RecipeView2.swift */,
+			);
+			path = Recipes;
+			sourceTree = "<group>";
+		};
+		40D40B68294701D7002B23BC = {
+			isa = PBXGroup;
+			children = (
+				40D40B73294701D7002B23BC /* CollegeCooks */,
+				40D40B72294701D7002B23BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40D40B72294701D7002B23BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40D40B71294701D7002B23BC /* CollegeCooks.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40D40B73294701D7002B23BC /* CollegeCooks */ = {
+			isa = PBXGroup;
+			children = (
+				404DDAA92947AA080076BD3A /* Extensions */,
+				40D40B8229470600002B23BC /* Info.plist */,
+				40D40B74294701D7002B23BC /* CollegeCooksApp.swift */,
+				40D40B76294701D7002B23BC /* ContentView.swift */,
+				404DDAAE2947ACEC0076BD3A /* Recipes */,
+				40D40B78294701DC002B23BC /* Assets.xcassets */,
+				40D40B7A294701DC002B23BC /* Preview Content */,
+				40D40B83294708F3002B23BC /* SettingsView.swift */,
+				40D40B9129470FCC002B23BC /* SavedView.swift */,
+				40D40B85294708FF002B23BC /* InfoView.swift */,
+				40D40B8B2947094E002B23BC /* SelectionView.swift */,
+				404DDAA72947A7A00076BD3A /* ListView.swift */,
+				404DDAC129480EAD0076BD3A /* EntriesVM.swift */,
+				404DDAB12947B2340076BD3A /* CuisineType.swift */,
+				404DDAB92947EFB80076BD3A /* TypeType.swift */,
+				404DDABF29480D990076BD3A /* Entry.swift */,
+			);
+			path = CollegeCooks;
+			sourceTree = "<group>";
+		};
+		40D40B7A294701DC002B23BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				40D40B7B294701DC002B23BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40D40B70294701D7002B23BC /* CollegeCooks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40D40B7F294701DC002B23BC /* Build configuration list for PBXNativeTarget "CollegeCooks" */;
+			buildPhases = (
+				40D40B6D294701D7002B23BC /* Sources */,
+				40D40B6E294701D7002B23BC /* Frameworks */,
+				40D40B6F294701D7002B23BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollegeCooks;
+			productName = CollegeCooks;
+			productReference = 40D40B71294701D7002B23BC /* CollegeCooks.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40D40B69294701D7002B23BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					40D40B70294701D7002B23BC = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 40D40B6C294701D7002B23BC /* Build configuration list for PBXProject "CollegeCooks" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40D40B68294701D7002B23BC;
+			productRefGroup = 40D40B72294701D7002B23BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40D40B70294701D7002B23BC /* CollegeCooks */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40D40B6F294701D7002B23BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D40B7C294701DC002B23BC /* Preview Assets.xcassets in Resources */,
+				40D40B79294701DC002B23BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40D40B6D294701D7002B23BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D40B8A29470930002B23BC /* RecipeView.swift in Sources */,
+				40D40B882947091F002B23BC /* SearchView.swift in Sources */,
+				40D40B86294708FF002B23BC /* InfoView.swift in Sources */,
+				404DDAC029480D990076BD3A /* Entry.swift in Sources */,
+				40D40B84294708F3002B23BC /* SettingsView.swift in Sources */,
+				40D40B77294701D7002B23BC /* ContentView.swift in Sources */,
+				404DDAB02947B0910076BD3A /* RecipeHelper.swift in Sources */,
+				40D40B8E294709CF002B23BC /* Color+Storage.swift in Sources */,
+				40672FB829482612005A1A20 /* FileManager+Entries.swift in Sources */,
+				40D40B9229470FCC002B23BC /* SavedView.swift in Sources */,
+				40D40B9029470AF7002B23BC /* Bundle+Info.swift in Sources */,
+				40672FBA29482B46005A1A20 /* RecipeView2.swift in Sources */,
+				404DDAA82947A7A00076BD3A /* ListView.swift in Sources */,
+				404DDAC229480EAD0076BD3A /* EntriesVM.swift in Sources */,
+				40D40B8C2947094E002B23BC /* SelectionView.swift in Sources */,
+				404DDAAD2947ACE80076BD3A /* Recipe.swift in Sources */,
+				404DDAB22947B2340076BD3A /* CuisineType.swift in Sources */,
+				404DDABA2947EFB80076BD3A /* TypeType.swift in Sources */,
+				40D40B75294701D7002B23BC /* CollegeCooksApp.swift in Sources */,
+				404DDABE2947FE0E0076BD3A /* NotificationMgr.swift in Sources */,
+				404DDAAB2947AAB10076BD3A /* Constants.swift in Sources */,
+				404DDABC2947FAC80076BD3A /* ImageHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		40D40B7D294701DC002B23BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40D40B7E294701DC002B23BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40D40B80294701DC002B23BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 44;
+				DEVELOPMENT_ASSET_PATHS = "\"CollegeCooks/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CollegeCooks/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 - ACME Apps Inc.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oshresth.CollegeCooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40D40B81294701DC002B23BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 44;
+				DEVELOPMENT_ASSET_PATHS = "\"CollegeCooks/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CollegeCooks/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 - ACME Apps Inc.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oshresth.CollegeCooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40D40B6C294701D7002B23BC /* Build configuration list for PBXProject "CollegeCooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40D40B7D294701DC002B23BC /* Debug */,
+				40D40B7E294701DC002B23BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40D40B7F294701DC002B23BC /* Build configuration list for PBXNativeTarget "CollegeCooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40D40B80294701DC002B23BC /* Debug */,
+				40D40B81294701DC002B23BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40D40B69294701D7002B23BC /* Project object */;
+}
